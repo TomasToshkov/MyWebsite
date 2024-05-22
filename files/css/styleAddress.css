@@ -1,0 +1,54 @@
+﻿@import "stylehistory.css";
+
+.content {
+    display: block;
+    min-height: 420px;
+}
+
+iframe {
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    float: right;
+    margin: 15px 30px;
+}
+
+address {
+    float: left;
+    margin-left: 30px;
+}
+
+address strong {
+    color: #105b1d;
+    text-decoration: none;
+    font-style: normal;
+}
+
+
+address a {
+    text-decoration: none;
+}
+
+address a:link {
+    color: red;
+}
+
+address a:visited {
+    color: purple;
+}
+
+address a:hover {
+    color: blueviolet;
+}
+
+address a:active {
+    color: blue;
+}
+
+footer {
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 8pt;
+    color: black;
+}

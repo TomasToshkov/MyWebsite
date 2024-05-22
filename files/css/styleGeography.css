@@ -1,0 +1,87 @@
+@import 'style.css';
+
+body {
+    background-color: #FFFFCC;
+    background-image: url(vrarza.jpg);
+}
+
+h1 {
+    text-align: center;
+    background-color: lightgreen;
+    color: #FFFFFF;
+    padding: 40px 10px;
+    margin: -20px -15px 15px -15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica;
+    border-radius: 20px 20px 0px 0px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: none;
+    color: #336600;
+    font-family: Arial, Helvetica;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px white;
+}
+
+.viewPage {
+    width: 1090px;
+    min-height: 500px;
+    background-color: cornsilk;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.menu {
+    background-color: #03d303;
+    margin: -15px -15px 15px -15px;
+    padding: 10px 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: White;
+    font-family: Arial, Helvetica;
+    font-weight: bold;
+    margin: 0px 10px;
+    padding: 10px 30px;
+}
+
+.linkNow {
+    background-color: #CCFF99;
+    border-radius: 10px 10px 0px 0px;
+    font-family: Arial, Helvetica\\;
+    font-weight: bold;
+    margin: 0px 10px;
+    color: Green;
+    padding: 10px 30px;
+}
+
+footer {
+    text-align: center;
+    font-family: Arial;
+    font-size: 8pt;
+    color: black
+}
+
+form {
+    text-align: center;
+    line-height: 25pt;
+    margin: 0 auto;
+    width: 450px;
+    color: #2D4811;
+    font-family: Arial;
+    font-size: 11pt;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+hr {
+    border: 2px dotted brown;
+
+}
