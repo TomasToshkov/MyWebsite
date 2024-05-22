@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Томас Тошков">
+    <meta name="keywords" content="Уеб дизайн">
+    <title>ОТЗИВИ</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="files/css/stylerespond.css" type="text/css">
+</head>
+
+<body>
+    <div class="viewPage container mt-5">
+        <h1 class="text-center bg-success text-white py-4 rounded-top">Отзиви</h1>
+        <div class="menu">
+            <a href="index.html">Начало</a>
+            <a href="gallery.html">Галерия</a>
+            <a href="geograhphy.html">География</a>
+            <a href="history.html">История</a>
+            <a href="Author.html">За автора</a>
+            <a href="contact.html">Контакти</a>
+            <span class="linkNow">Отзиви</span>
+        </div>
+        <div class="content mt-4">
+            <h2 class="text-center text-success">Отзиви</h2>
+            <hr>
+            <p class="text-center">Ако имате мнение, препоръки, забележки или оплаквания към нас, моля пишете ни!</p>
+            <form action="mailto:author@gmail.com" enctype="text/plain" method="post" name="emailTestForm">
+                <div class="mb-3">
+                    <label for="emailSender" class="form-label">E-mail:</label>
+                    <input type="email" class="form-control" id="emailSender" name="emailSender" required="required" placeholder="Това поле е задължително">
+                </div>
+                <div class="mb-3">
+                    <label for="inpTop" class="form-label">Тема:</label>
+                    <input list="inpTop" class="form-control" id="inpTop" name="inpTop" placeholder="Изберете тема">
+                    <datalist id="inpTop">
+                        <option value="Препоръка"></option>
+                        <option value="Мнение"></option>
+                        <option value="Забележка"></option>
+                        <option value="Оплакване"></option>
+                        <option value="Други"></option>
+                    </datalist>
+                </div>
+                <div class="mb-3">
+                    <label for="taLetter" class="form-label">Текст на писмото:</label>
+                    <textarea class="form-control" id="taLetter" name="taLetter" rows="5" required="required" placeholder="Това поле е задължително"></textarea>
+                </div>
+                <div class="mb-3">
+                    <input class="btn btn-primary" type="reset" value="Изчисти">
+                    <input class="btn btn-primary" type="submit" value="Изпрати">
+                </div>
+            </form>
+        </div>
+        <hr>
+        <footer class="text-center mt-4">
+            Курсов Проект по УЕБ дизайн &copy; 2023<br />
+            Томас Тошков &copy; 2023<br />
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+</body>
+
+</html>
